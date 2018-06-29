@@ -6,7 +6,8 @@ categories: ["cozinha"]
 ---
 
 A versão rápida do arroz de pato
-{{% header_image "/img/posts/arroz_de_pato.jpg" "Arroz de Pato" %}}
+{{% cozinha_header_image "arroz_de_pato.jpg" "Arroz de Pato" %}}
+
 <!--more-->
 
 ## Ingredientes
@@ -50,6 +51,6 @@ A versão rápida do arroz de pato
 
 
 {{< gallery caption-effect="fade" >}}
-  {{< figure link="/img/posts/arroz_de_pato.jpg" caption="Arroz de Pato" >}}
-  {{< figure link="/img/posts/arroz_de_pato_1.jpg" caption="Arroz de Pato e Pato Assdo" >}}
+  {{< figure link="/post/cozinha/arroz_de_pato.jpg" caption="Arroz de Pato" >}}
+  {{< figure link="/post/cozinha/arroz_de_pato_1.jpg" caption="Arroz de Pato e Pato Assdo" >}}
 {{< /gallery >}}

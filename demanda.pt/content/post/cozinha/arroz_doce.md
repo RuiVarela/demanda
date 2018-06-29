@@ -6,7 +6,7 @@ categories: ["cozinha"]
 ---
 
 Presença pascoal.
-{{% header_image "/img/posts/arroz_doce.jpg" "Arroz doce" %}}
+{{% cozinha_header_image "arroz_doce.jpg" "Arroz doce" %}}
 <!--more-->
 
 ## Ingredientes

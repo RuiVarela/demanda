@@ -8,7 +8,7 @@ categories: ["cozinha"]
 Este bacalhau no forno tem truque.   
 Acompanha muito bem com [batata doce]({{< relref "batata_doce_forno.md" >}})
 
-{{% header_image "/img/posts/bacalhau_assado_forno.jpg" "Bacalhau no Forno" %}}
+{{% cozinha_header_image "bacalhau_assado_forno.jpg" "Bacalhau no Forno" %}}
 <!--more-->
 
 ## Ingredientes
