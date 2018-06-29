@@ -1,0 +1,3 @@
+[submodule "demanda.pt\\themes\\beautifulhugo"]
+	path = demanda.pt\\themes\\beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git

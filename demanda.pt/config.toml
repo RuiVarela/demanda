@@ -1,0 +1,88 @@
+baseURL = "https://demanda.pt"
+DefaultContentLanguage = "pt"
+title = "A demanda"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentOptions = "linenos=table"
+googleAnalytics = "UA-113138036-1"
+enableRobotsTXT = true
+#disqusShortname = "XXX"
+
+[Params]
+  logo = "img/logo_icon.png"
+  favicon = "fav/favicon.ico"
+  dateFormat = "02-01-2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  google_cse = "015058358021880085848:qnh0urajxhs"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Rui Varela"
+  website = "https://demanda.pt/page/about"
+  email = "rui@demanda.pt"
+  facebook = "rui.filipe.varela"
+  github = "RuiVarela"
+  linkedin = "rui-varela-32b92610"
+  instagram = "RuiFilipeVarela"
+  youtube = "RuiVarela" # or channel/channelname
+  twitter = "RuiFilipeVarela"  
+  googleplus = "+RuiVarela" # or xxxxxxxxxxxxxxxxxxxxx   
+#  gitlab = "username"  
+#  reddit = "username"  
+#  xing = "username"
+#  stackoverflow = "users/XXXXXXX/username"
+#  snapchat = "username"   
+#  soundcloud = "username"
+#  spotify = "username"
+#  bandcamp = "username"
+#  itchio = "username"
+#  vk = "username"
+#  paypal = "username"
+#  telegram = "username"
+
+[[menu.main]]
+    identifier = "categories"
+    name = "Categorias"
+    weight = 1
+
+[[menu.main]]
+    parent = "categories"
+    name = "Divagações"
+    url = "categories/divagacoes/"
+    weight = 1
+
+[[menu.main]]
+    parent = "categories"
+    name = "Cozinha"
+    url = "categories/cozinha/"
+    weight = 2
+
+[[menu.main]]
+    parent = "categories"
+    name = "Hashtags"
+    url = "tags"
+    weight = 3
+
+[[menu.main]]
+    name = "Autor"
+    url = "page/about/"
+    weight = 2
