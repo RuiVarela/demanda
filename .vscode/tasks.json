@@ -4,18 +4,15 @@
         {
             "label": "demanda.pt.clean",
             "type": "shell",
-            "command": "if (Test-Path public) { rm public -r -fo }",
-            "options": {
-                "cwd": "${workspaceFolder}/demanda.pt"
-            },
+            "command": "rm -rf public/blog.demanda.pt",
             "problemMatcher": []
         },
         {
             "label": "demanda.pt.develop",
             "type": "shell",
-            "command": "../bin/hugo.exe server",
+            "command": "hugo server -D",
             "options": {
-                "cwd": "${workspaceFolder}/demanda.pt"
+                "cwd": "${workspaceFolder}/blog.demanda.pt"
             },
             "isBackground": true,
             "problemMatcher": []
@@ -23,31 +20,13 @@
         {
             "label": "demanda.pt.build",
             "type": "shell",
-            "command": "../bin/hugo.exe",
+            "command": "hugo -d ../public/blog.demanda.pt",
+            "dependsOn": [
+                "demanda.pt.clean"
+            ],
             "options": {
-                "cwd": "${workspaceFolder}/demanda.pt"
+                "cwd": "${workspaceFolder}/blog.demanda.pt"
             },
-            "dependsOn": [
-                "demanda.pt.clean"
-            ],
-            "problemMatcher": []
-        },
-        {
-            "label": "deploy",
-            "type": "shell",
-            "command": "./bin/WinSCP.com /script=\"deploy.ftp\"",
-            "dependsOn": [
-                "demanda.pt.build"
-            ],
-            "problemMatcher": []
-        },
-        {
-            "label": "backup",
-            "type": "shell",
-            "command": "If(Test-path ../web_dev.zip) { Remove-item ../web_dev.zip }\n Add-Type -assembly \"system.io.compression.filesystem\"\n [io.compression.zipfile]::CreateFromDirectory('${workspaceFolder}', '../web_dev.zip')",
-            "dependsOn": [
-                "demanda.pt.clean"
-            ],
             "problemMatcher": []
         }
     ]
