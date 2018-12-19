@@ -4,7 +4,7 @@
         {
             "label": "demanda.pt.clean",
             "type": "shell",
-            "command": "rm -rf public/blog.demanda.pt",
+            "command": "find public/blog.demanda.pt/ ! -name .htaccess ! -path public/blog.demanda.pt/ -delete",
             "problemMatcher": []
         },
         {
