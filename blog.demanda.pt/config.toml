@@ -13,6 +13,7 @@ enableRobotsTXT = true
 #disqusShortname = "XXX"
 
 [Params]
+  subtitle = "O guia da vida quotidiana urbana"
   logo = "img/logo_icon.png"
   favicon = "fav/favicon.ico"
   dateFormat = "02-01-2006"
@@ -20,6 +21,8 @@ enableRobotsTXT = true
   rss = true
   comments = true
   readingTime = true
+  showRelatedPosts = true
+  socialShare = true
   #Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
   #google_cse = "015058358021880085848:qnh0urajxhs"
 
@@ -37,7 +40,7 @@ enableRobotsTXT = true
 
 [Author]
   name = "Rui Varela"
-  website = "https://demanda.pt/page/about"
+  website = "https://blog.demanda.pt/page/about"
   email = "rui@demanda.pt"
   facebook = "rui.filipe.varela"
   github = "RuiVarela"
