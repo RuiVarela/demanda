@@ -19,10 +19,10 @@ enableRobotsTXT = true
   dateFormat = "02-01-2006"
   commit = false
   rss = true
-  comments = true
+  comments = false
   readingTime = true
   showRelatedPosts = true
-  socialShare = true
+  socialShare = false
   #Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
   #google_cse = "015058358021880085848:qnh0urajxhs"
 
@@ -89,3 +89,8 @@ enableRobotsTXT = true
     name = "Autor"
     url = "page/about/"
     weight = 2
+
+[[menu.main]]
+    name = "Pesquisa"
+    url = "page/search/"
+    weight = 3
