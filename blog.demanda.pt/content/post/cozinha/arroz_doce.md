@@ -11,7 +11,7 @@ Presença pascoal.
 
 ## Ingredientes
 - 1 chávena de arroz carolino
-- 1 chávena 
+- 1 chávena de açucar
 - Casca de 1 limão
 - 1 pau de canela
 - 1 colher de sopa de manteiga
