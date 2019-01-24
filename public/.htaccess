@@ -6,8 +6,8 @@ RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
 # force https
-RewriteCond %{HTTPS} !=on 
-RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+#RewriteCond %{HTTPS} !=on 
+#RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 
 # change the default web_root to demanda.pt
 RewriteCond %{HTTP_HOST} ^demanda.pt$ [NC,OR]
