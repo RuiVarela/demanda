@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <title>SuperPixelKit</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="pixel_kit.svg" alt="" width="72" height="72">
+      <h2>Super Pixel Kit Web</h2>
+      <p class="lead">This is a webrunner for the applications developed using <a href="https://github.com/RuiVarela/superpixelkit">SuperPixelKit</a></p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 order-md-1">
+        <h4 class="mb-3">Kano Pixel Kit Info</h4>
+        <form id="post_form" novalidate>
+
+          <div class="row">
+            <div class="col-md-7 mb-3">
+              <label for="app">App</label>
+              <select class="custom-select d-block w-100" id="app" required>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid App.
+              </div>
+            </div>
+            <div class="col-md-5 mb-3">
+              <label for="ip">Ip</label>
+              <input type="text" class="form-control" id="ip" placeholder="192.168.1.90" required pattern="^([0-9]{1,3}\.){3}[0-9]{1,3}$">
+              <div class="invalid-feedback">
+                Please provide a valid Ip.
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4">
+
+          <button class="btn btn-primary btn-lg btn-block" id="connect" type='submit'>Connect</button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">&copy; 2017-2018 Rui Varela</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="https://github.com/RuiVarela/superpixelkit">Source</a></li>
+        <li class="list-inline-item"><a href="https://github.com/RuiVarela/superpixelkit/issues">Issues</a></li>
+      </ul>
+    </footer>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+    <script src="index.js"/>
+  <script>
+
+  </script>
+</body>
+
+</html>
