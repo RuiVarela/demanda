@@ -1,6 +1,6 @@
 ---
 title: Choquinhos Estufados
-date: 2019-01-30
+date: 2019-01-28
 tags: ["cozinha", "conduto"]
 categories: ["cozinha"]
 ---
