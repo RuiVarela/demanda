@@ -7,7 +7,7 @@ categories: ["cozinha"]
 
 Não faz sentido comprar feito
 
-{{% cozinha_header_image "mini_palmiers.jpg" "Mini Palmiers" %}}
+![Mini Palmiers](../mini_palmiers.jpg)
 <!--more-->
 
 ## Ingredientes

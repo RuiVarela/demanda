@@ -6,7 +6,7 @@ categories: ["cozinha"]
 ---
 
 A versão rápida do arroz de pato
-{{% cozinha_header_image "arroz_de_pato.jpg" "Arroz de Pato" %}}
+![Arroz de Pato](../arroz_de_pato.jpg)
 
 <!--more-->
 

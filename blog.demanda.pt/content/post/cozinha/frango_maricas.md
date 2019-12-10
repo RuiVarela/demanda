@@ -10,7 +10,7 @@ Ou a versão politicamente correcta, *Frango com Limão*.
 
 Acompanha com salada e [arroz]({{< relref "arroz_martha_stewart.md" >}})
 
-{{% cozinha_header_image "frango_maricas.jpg" "Frango Maricas" %}}
+![Frango Maricas](../frango_maricas.jpg)
 <!--more-->
 
 ## Ingredientes

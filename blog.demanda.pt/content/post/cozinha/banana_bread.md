@@ -6,8 +6,8 @@ categories: ["cozinha"]
 ---
 
 O bolo de banana, que até parece de chocolate!
-{{% cozinha_header_image "banana_bread.jpg" "Banana Bread" %}}
 
+![Banana Bread](../banana_bread.jpg)
 <!--more-->
 
 ## Ingredientes

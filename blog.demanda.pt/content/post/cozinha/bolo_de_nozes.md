@@ -7,7 +7,8 @@ categories: ["cozinha"]
 
 Simples e fácil,  
 O rum dá-lhe um toque óptimo
-{{% cozinha_header_image "bolo_de_nozes.jpg"  "Bolo de Nozes" %}}
+
+![Bolo de Nozes](../bolo_de_nozes.jpg)
 <!--more-->
 
 ## Ingredientes

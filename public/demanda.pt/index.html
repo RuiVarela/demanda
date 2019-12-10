@@ -1,25 +1,60 @@
 <html>
+
 <head>
     <title>Demanda</title>
-    <style> 
-    body {
-        margin: 0px;
-        padding: 0px;
-        background-color: black;
-        background-image: url('logo.jpg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center center;
-    }
-    div {
-        margin: 0px;
-        padding: 0px;
-    }
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+        }
+
+        #background {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            background-image: url('logo.jpg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            opacity: 0.1;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+        }
+
+        #menu {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #menu img {
+            width: auto;
+            height: 3em;
+            margin: 1em 0 1em 0;
+        }
+
+        div {
+            margin: 0px;
+            padding: 0px;
+        }
     </style>
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
 </head>
 
 <body>
-    <a href="https://blog.demanda.pt"><div style="width: 100%;height: 100%;"/></div></a>
+    <div id="background"></div>
+
+        <div id="menu">
+            <a href="https://superpixelkit.demanda.pt"> <img src="pixel_kit.png" alt="superpixelkit"></img></a>
+            <a href="https://pacman.demanda.pt"> <img src="pacman.png" alt="pacman"></img></a>
+            <a href="https://blog.demanda.pt"> <img src="blog.png" alt="blog"></img></a>
+        </div>
 </body>
+
 </html>

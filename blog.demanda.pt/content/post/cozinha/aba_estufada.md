@@ -6,7 +6,7 @@ categories: ["cozinha"]
 ---
 
 Sim a aba de vaca dá pra estufar. 
-{{% cozinha_header_image "aba_estufada.jpg" "Aba Estufada" %}}
+![Aba Estufada](../aba_estufada.jpg)
 <!--more-->
 
 ## Ingredientes
