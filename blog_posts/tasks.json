@@ -1,0 +1,64 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "blog.demanda.pt.clean",
+            "type": "shell",
+            "command": "find public/blog.demanda.pt/ ! -name .htaccess ! -path public/blog.demanda.pt/ -delete",
+            "problemMatcher": []
+        },
+        {
+            "label": "blog.demanda.pt.develop",
+            "type": "shell",
+            "command": "hugo server -D",
+            "options": {
+                "cwd": "${workspaceFolder}/blog.demanda.pt"
+            },
+            "isBackground": true,
+            "problemMatcher": []
+        },
+        {
+            "label": "blog.demanda.pt.build",
+            "type": "shell",
+            "command": "hugo -d ../public/blog.demanda.pt",
+            "options": {
+                "cwd": "${workspaceFolder}/blog.demanda.pt"
+            },
+            "problemMatcher": []
+        },
+
+
+
+        {
+            "label": "all.clean",
+            "type": "shell",
+            "command": "echo clean all",
+            "dependsOn": [
+                "blog.demanda.pt.clean"
+            ],
+            "problemMatcher": []
+        },     
+        {
+            "label": "all.build",
+            "type": "shell",
+            "command": "echo build all",
+            "dependsOn": [
+                "clean",
+                "blog.demanda.pt.build"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "all.sync",
+            "type": "shell",
+            "command": "lftp -e 'mirror --reverse --delete; quit' --env-password -u web_root@demanda.pt ftp://ftp.demanda.pt",
+            "options": {
+                "cwd": "${workspaceFolder}/public"
+            },
+            "dependsOn": [
+                "all.build"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
